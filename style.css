@@ -1,0 +1,137 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    background-color: #1f2937;
+    padding: 16px;
+}
+
+.header-content {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 0 165px;
+    justify-content: space-between;
+}
+
+.header-name {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 300;
+    gap: 24px;
+}
+
+li a {
+    text-decoration: none;
+    color: #e5e7eb; 
+
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    height: 700px;
+    padding: 16px;
+}
+
+.hero-left {
+    width: 550px;
+}
+
+
+.hero-main-text {
+    outline: soli;
+    font-weight:bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-second-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300px;
+    margin: 6px 0 18px 0;
+}
+
+.hero-image {
+    background-color: #a7a7b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+}
+
+.hero-btn {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.hero-btn:hover {
+    background-color: #3d77d3;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 40px 0 50px 0;
+}
+
+.info-container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    padding: 16px;
+    margin-bottom: 100px;
+}
+
+.bluebox {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: solid 3px #3882f6;
+    margin-bottom: 8px;
+}
+
+.info {
+    text-align: center;
+    max-width: 150px;
+    color: #1f2937;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    height: 400px;
+    padding: 16px;
+}
