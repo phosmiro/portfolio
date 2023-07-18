@@ -51,16 +51,9 @@ div a {
     align-items: center;
     flex-wrap: wrap;
     background-color: #1f2937;
-    height: 100vh;
+    height: 95vh;
     padding: 16px;
-}
-
-.hero-2 {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
     gap: 32px;
-    
 }
 
 .hero-left {
@@ -69,7 +62,6 @@ div a {
 
 
 .hero-main-text {
-    outline: soli;
     font-weight:bolder;
     font-size: 48px;
     color: #f9faf8;
@@ -83,11 +75,10 @@ div a {
 }
 
 .hero-image {
-    background-color: #a7a7b0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 600px;
+    width: 300px;
     height: 300px;
 }
 
@@ -136,8 +127,81 @@ div a {
     color: #1f2937;
 }
 
+.quote-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
 .quote-container {
     background-color: #e5e7eb;
     height: 400px;
     padding: 16px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.quote-credit {
+    align-self: flex-start;
+    font-weight: 700;
+}
+
+.ad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.ad {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.ad-main-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ad-subtext {
+    color: #f9faf8;
+}
+
+.sign-up {
+    color: #f9faf8;
+    border: solid 2px #f9faf8;
+    padding: 6px 36px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
