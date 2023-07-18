@@ -1,7 +1,8 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
 body {
@@ -10,20 +11,22 @@ body {
     flex-direction: column;
 }
 
-.header-wrapper {
+header {
     background-color: #1f2937;
 }
 
-header {
+.header-container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
     background-color: #1f2937;
     margin: 0 170px;
     padding: 16px;
 }
 
-.header-name {
+.header-left {
+    text-align: center;
     color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
@@ -42,8 +45,7 @@ header {
 
 div a {
     text-decoration: none;
-    color: #e5e7eb; 
-
+    color: #e5e7eb;
 }
 .hero-container {
     display: flex;
@@ -60,14 +62,13 @@ div a {
     width: 500px;
 }
 
-
 .hero-main-text {
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 48px;
     color: #f9faf8;
 }
 
-.hero-second-text {
+.hero-subtext {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 300px;
@@ -127,14 +128,14 @@ div a {
     color: #1f2937;
 }
 
-.quote-wrapper {
+.quote-container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
 }
 
-.quote-container {
+.text-container {
     background-color: #e5e7eb;
     height: 400px;
     padding: 16px;
