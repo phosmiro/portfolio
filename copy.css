@@ -1,5 +1,5 @@
 * {
-    font-family: "Wotfard", sans-serif;
+    font-family: 'Wotfard', sans-serif;
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -48,7 +48,8 @@ li a:hover {
     color: #ffffffbf;
 }
 
-.hero-section {
+
+.hero-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,29 +98,31 @@ li a:hover {
     background-color: #3d77d3;
 }
 
-.info-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: white;
-}
-
 .info-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    margin: 3%;
+    text-align: center;
+ 
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    height: 50vh;
+    gap: 36px;
 }
 
 .info-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 8%;
-    gap: 32px;
+    gap: 48px;
 }
 
 .bluebox {
@@ -136,7 +139,7 @@ li a:hover {
     color: #1f2937;
 }
 
-.quote-section {
+.quote-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
